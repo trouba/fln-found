@@ -1,3 +1,6 @@
+.menuImg {height:42px;
+width:42px;}
+
 .top-bar {background-color:#E85A50
 }
 
@@ -61,13 +64,15 @@ font-size: 0.85rem}
   
 #hover1 {padding: 10px;}
 
-.f-dropdown {margin-top: 0px;
-background-color: #F5F5F5}
+.f-dropdown {
+background-color: #F5F5F5;
+margin-top:0;}
   
 .f-dropdown li {font-size: 0.875rem;
   cursor: auto;
   line-height: 1.125rem;
-  margin-left: 10px;}   
+  
+ }   
   
 .f-dropdown li:hover, .f-dropdown li:focus {background-color:#FFF;}
   
@@ -91,6 +96,8 @@ background-color: #F5F5F5}
 li.titre-categorie{  margin-bottom: 10px;}
   
  .liste-categories {list-style-type:none;
+   float: left;
+  min-width: 150px;
  }
  
  .categorie {padding-left:0px}
@@ -127,5 +134,48 @@ color:#FFF;}
  .top-bar-section .has-dropdown > a:after {
     border-color: #FFFFFF  rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
 }
+
+.right-off-canvas-menu {  background: #E85A50;}
+
+ul.off-canvas-list li a {color: rgba(255, 255, 255, 1);
+  border-bottom: 1px solid #FFFFFF;}
+  
+  ul.off-canvas-list li a:hover {
+  background: #E85A50; 
+  font-weight: bold;
+}
+
+.tab-bar {background: #E85A50; }
+
+.right-submenu {background: #E85A50; }
+
+.right-off-canvas-menu ul.off-canvas-list li.has-submenu > a:after {
+  content: "\BB";
+  margin-left: 0.5rem;
+  display: inline; }
+  
+  .right-off-canvas-menu ul.off-canvas-list li.has-submenu > a:before {
+  content: none;
+  margin-right: 0;
+  display: inline;
+}
+
+.right-submenu .back > a:after {
+  content: none;
+  margin-left: 0;
+  display: inline;
+}
+
+.right-submenu .back > a:before {
+  content: "\AB";
+  margin-right: 0.5rem;
+  display: inline;
+}
+
+.partage-validation {border: solid 1px #D5D5D5;
+padding:5px;
+margin-bottom:40px}
+
+
  
  
