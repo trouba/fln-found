@@ -3,19 +3,32 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <title>Foundation | Welcome</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/main.css" />
     <script src="js/vendor/modernizr.js"></script>
   </head>
   <body>
-    <nav class="top-bar" data-topbar role="navigation">
+    <nav class="tab-bar show-for-small-only" >
+  <div class="left-small">
+    <a role="button" aria-expanded="false" aria-controls="idOfLeftMenu" class="left-off-canvas-toggle menu-icon" ><span></span></a>
+  </div>
+  <section class="middle tab-bar-section">
+    <h1 class="title">Foundation</h1>
+  </section>
+  <div class="right-small">
+    <a role="button" aria-expanded="false" aria-controls="idOfRightMenu" class="right-off-canvas-toggle menu-icon" ><span></span></a>
+  </div>
+</nav>
+    <nav class="top-bar show-for-medium-up" data-topbar role="navigation">
       <ul class="title-area">
         <li class="name">
           <h1><a href="#">Filon</a></h1>
         </li>
         <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
         <li class="toggle-topbar icon">
+ 
           <a href="#">
           <span>Menu</span>
           </a>
@@ -26,13 +39,14 @@
          
         <!-- Left Nav Section -->
         <ul class="right">
-      <li><a href="#"><img class="profil-image" src="http://lorempixel.com/35/35/sports/">COMPTE</a></li>  
-      
-    </ul>
+
+          <li><a href="#"><img src="img/addcall.png">PARTAGER UN ARTICLE <i class="fa fa-plus fa-x2"></i></a></li>
+          <li><a href="#"><img class="profil-image" src="http://lorempixel.com/35/35/sports/">COMPTE</a></li>        
+        </ul>
         <ul class="left">
           <li class="menu-entry"><a href="#">DERNIERS ARTICLES</a></li>
           <li class="menu-entry"><a href="#">DOSSIERS</a></li>
-          <li class="menu-entry"><a href="#" data-dropdown="hover1" data-options="is_hover:true; hover_timeout:5000000000; pip:center;">THÈMES</a></li>
+          <li class="menu-entry has-dropdown"><a href="#" data-dropdown="hover1" data-options="is_hover:true; hover_timeout:5000000000; pip:center;">THÈMES</a></li>
           <li class="menu-entry"><a href="#">PORTRAITS ET ENTRETIENS</a></li>
         </ul>
        
@@ -126,46 +140,85 @@
       </div>
     </div>
     <div class="row">
-      <div class="large-9 medium-9 small-12 columns">
+      <div class="large-12 medium-12 small-12 columns">
         <div class="large-2 columns small-2">
           <img class="miniature-article" src="http://lorempixel.com/180/180/sports/">
         </div>
-        <div class="large-10 small-10 columns">
+        <div class="large-8 small-8 columns">
           
           <h2 class="titre-article-main">Faut-il avoir peur de l’intelligence artificielle ?</h2>
-          <p class="infos-article">LONGFORM - Temps de lecture: 12mn</p>
+          <p class="infos-article"><i class="fa fa-newspaper-o"></i> LONGFORM - <i class="fa fa-eye fa-lg"></i> Temps de lecture: 12 mn</p>
           <p class="extrait-article">Bill Gates, Stephen Hawking... Les auteurs de science-fiction ne sont plus les seuls à prédire une catastrophe entre nous et les machines. Grand entretien avec Michel Nachez, cyberanthropologue.</p>
           <ul class="inline-list">
-            <li><a href="">Reply</a></li>
-            <li><a href="">Share</a></li>
-          </ul>       
+            <li class="article-source">Source <a href="">Libération</a></li>            
+          </ul> 
+        <hr>      
         </div>
-        <hr>
-        <div class="large-2 columns small-2">
-          <img class="miniature-article" src="http://lorempixel.com/180/180/people/">
-        </div>
-        
-        <div class="large-10 small-10 columns">
-          <h2 class="titre-article-main">Faut-il avoir peur de l’intelligence artificielle ?</h2>
-          <p class="extrait-article">Bill Gates, Stephen Hawking... Les auteurs de science-fiction ne sont plus les seuls à prédire une catastrophe entre nous et les machines. Grand entretien avec Michel Nachez, cyberanthropologue.</p>
-          <ul class="inline-list">
-            <li><a href="">Reply</a></li>
-            <li><a href="">Share</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="large-3 medium-3 small-12 columns">
-        <div class="panel show-for-medium-up">
-          <p>Article un hasard</p>
-        </div>
-        <div class="panel show-for-medium-up">
-          <p>Les meilleurs articles</p>
-        </div>
-        <div class="panel show-for-medium-up">
-          <p>Newsletter</p>
-        </div>
-      </div>
+        <div class="large-1 columns small-1">
+          <img class="profil-image" src="http://lorempixel.com/35/35/sports/">
+        </div>  
+      </div>      
     </div>
+    <div class="row">
+      <div class="large-12 medium-12 small-12 columns">
+        <div class="large-2 columns small-2">
+          <img class="miniature-article" src="http://lorempixel.com/180/180/sports/">
+        </div>
+        <div class="large-8 small-8 columns">
+          
+          <h2 class="titre-article-main">Faut-il avoir peur de l’intelligence artificielle ?</h2>
+          <p class="infos-article"><i class="fa fa-newspaper-o"></i> LONGFORM - <i class="fa fa-eye fa-lg"></i> Temps de lecture: 12 mn</p>
+          <p class="extrait-article">Bill Gates, Stephen Hawking... Les auteurs de science-fiction ne sont plus les seuls à prédire une catastrophe entre nous et les machines. Grand entretien avec Michel Nachez, cyberanthropologue.</p>
+          <ul class="inline-list">
+            <li class="article-source">Source <a href="">Libération</a></li>            
+          </ul> 
+        <hr>      
+        </div>
+        <div class="large-1 columns small-1">
+          <img class="profil-image" src="http://lorempixel.com/35/35/sports/">
+        </div>  
+      </div>      
+    </div>
+    <div class="row dossier">
+      <div class="large-12 medium-12 small-12 columns">
+       
+          <div class="large-2 columns small-2">
+            <img class="miniature-dossier" src="http://lorempixel.com/180/180/sports/">
+          </div>
+          <div class="large-8 small-8 columns">                     
+            <h2 class="titre-dossier-main">Faut-il avoir peur de l’intelligence artificielle ?</h2>     
+            <p class="infos-dossier">DOSSIER - 12 ARTICLES</p>      
+            <p class="extrait-dossier">Bill Gates, Stephen Hawking... Les auteurs de science-fiction ne sont plus les seuls à prédire une catastrophe entre nous et les machines. Grand entretien avec Michel Nachez, cyberanthropologue.</p> 
+            <a href="#" class="button small">Voir le dossier</a>             
+          </div>
+       
+        <div class="large-1 columns small-1 ">
+          <i class="fa heart-o fa-x2"></i>
+        </div>  
+      </div>      
+    </div>
+    <div class="row">
+      <div class="large-12 medium-12 small-12 columns">
+        <div class="large-2 columns small-2">
+          <img class="miniature-article" src="http://lorempixel.com/180/180/sports/">
+        </div>
+        <div class="large-8 small-8 columns">
+          
+          <h2 class="titre-article-main">Faut-il avoir peur de l’intelligence artificielle ?</h2>
+          <p class="infos-article"><i class="fa fa-newspaper-o"></i> LONGFORM - <i class="fa fa-eye fa-lg"></i> Temps de lecture: 12 mn</p>
+          <p class="extrait-article">Bill Gates, Stephen Hawking... Les auteurs de science-fiction ne sont plus les seuls à prédire une catastrophe entre nous et les machines. Grand entretien avec Michel Nachez, cyberanthropologue.</p>
+          <ul class="inline-list">
+            <li class="article-source">Source <a href="">Libération</a></li>            
+          </ul> 
+        <hr>      
+        </div>
+        <div class="large-1 columns small-1">
+          <img class="profil-image" src="http://lorempixel.com/35/35/sports/">
+        </div>  
+      </div>      
+    </div>
+
+
     </div>
     
     <script src="js/vendor/jquery.js"></script>

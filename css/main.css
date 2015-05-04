@@ -1,20 +1,27 @@
-.top-bar {background-color:#E85A50}
+.top-bar {background-color:#E85A50
+}
 
-.top-bar-section ul li {background-color:#E85A50}
+.top-bar-section ul li {background-color:#E85A50
+}
 
-.top-bar-section ul li a {background-color:#E85A50}
+.top-bar-section ul li a {background-color:#E85A50
+}
 
 
-.top-bar-section li:not(.has-form) a:not(.button) {background-color:#E85A50}
+.top-bar-section li:not(.has-form) a:not(.button) {background-color:#E85A50
+}
 
 .profil-image {border-radius:20px;
-margin-right:10px}
+margin-right:10px
+}
 
-.panel {border: solid 0px;}
+.panel {border: solid 0px;
+}
 
 .titre-page {  font-size: 1.75rem;
   color: #E85A50;
-  margin-top:60px}
+  margin-top:60px
+  }
   
 .date-articles {  font-family: inherit;
   font-weight: bold;
@@ -22,12 +29,14 @@ margin-right:10px}
   font-size: 1rem;
   line-height: 1.6;
   margin-bottom: 0.25rem;
-  text-rendering: optimizeLegibility;}
+  text-rendering: optimizeLegibility;
+  }
 
-.miniature-article {margin-top:0.5rem;}
+.miniature-article {margin-top:0.5rem;
+}
   
 .titre-article-main {  font-size: 1.125rem;
-margin-bottom:0}
+	margin-bottom:0}
 
 .infos-article {  font-size: 0.8rem;
   margin-bottom: 0px;
@@ -40,23 +49,33 @@ margin-bottom:0}
   font-size: 0.85em;
   line-height: 1.2;
   margin-bottom: 1.25rem;}
+
+.article-source {display: inline;
+color: #A3A3A3;
+font-size: 0.85rem}
+
+.article-profil > * {display: inline;}
+
+.inline-list > li > * {display: inline;}
+
   
-  #hover1 {  margin-left: 10px;
-  margin-right: 10px;
-  padding: 10px;}
+#hover1 {padding: 10px;}
+
+.f-dropdown {margin-top: 0px;
+background-color: #F5F5F5}
   
-  .f-dropdown li {font-size: 0.875rem;
+.f-dropdown li {font-size: 0.875rem;
   cursor: auto;
   line-height: 1.125rem;
   margin-left: 10px;}   
   
-  .f-dropdown li:hover, .f-dropdown li:focus {background-color:#FFF;}
+.f-dropdown li:hover, .f-dropdown li:focus {background-color:#FFF;}
   
-  .f-dropdown li a {padding:0px}
+.f-dropdown li a {padding:0px}
   
-  .f-dropdown li a:hover{font-weight:bold}
+.f-dropdown li a:hover{font-weight:bold}
   
-  .miniature-focus {
+.miniature-focus {
   line-height: 0;
   display: inline-block;
   border: solid 0px ;
@@ -64,16 +83,49 @@ margin-bottom:0}
   box-shadow: 0 0 0 0;
   transition: all 200ms ease-out;}
   
-  .titre-categorie {  text-transform: uppercase;
+.titre-categorie {  text-transform: uppercase;
   font-weight: bold;
   color: rgb(149, 149, 149);
     border-bottom: solid 2px;}
     
-    Li.titre-categorie{  margin-bottom: 10px;}
+li.titre-categorie{  margin-bottom: 10px;}
   
  .liste-categories {list-style-type:none;
- padding-top:10px}
+ }
  
  .categorie {padding-left:0px}
+
+ .dossier {background-color: #E85A50;
+  margin-bottom: 25px;
+  padding: 10px 0px 10px 0px;
+ }
+
+ .miniature-dossier {height: 100%;
+  width: 100%}
+
+  .titre-dossier-main {  font-size: 1.25rem;
+  margin-bottom:0;
+color:#FFF;
+text-transform: uppercase;}
+
+.infos-dossier {  font-size: 0.8rem;
+  margin-bottom: 0px;
+  font-weight: bold;
+  color: rgb(126, 126, 126);
+  margin-bottom: 0.5rem;
+color:#FFF;}
+  
+.extrait-dossier {font-family: inherit;
+  font-weight: normal;
+  font-size: 0.85em;
+  line-height: 1.2;
+  margin-bottom: 1.25rem;
+color:#FFF;}
+
+ .dossier-left{background-color: #FFF}
+
+ .top-bar-section .has-dropdown > a:after {
+    border-color: #FFFFFF  rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+}
  
  
