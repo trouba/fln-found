@@ -71,7 +71,22 @@
                       <li class="titre-categorie">A découvrir
                       </li>
                       <li>
-                        <a class="miniature-focus" href="../img/demos/demo2.png"><img src="http://lorempixel.com/360/180/sports/"></a>
+                          
+                          
+                            <img class="miniature-dossier-dropdown" src="img/dossier1.png">
+                          
+                          <div class="content-dossier-dropdown">
+                            <h2 class="titre-dossier-dropdown">
+                              Le baromètre « Confiance dans les médias » ou l’arroseur arrosé
+                            </h2>
+                            <p class="infos-dossier-dropdown">
+                              DOSSIER - 12 ARTICLES
+                            </p>
+                            <p class="extrait-dossier-dropdown">
+                              Bill Gates, Stephen Hawking... Les auteurs de science-fiction ne sont plus les seuls à prédire une catastrophe entre nous et les machines. Grand entretien avec Michel Nachez, cyberanthropologue.
+                            </p><a class="button small" href="#">Voir le dossier</a>
+                          </div>                         
+                        
                       </li>
                     </ul>
                   </li>
@@ -229,15 +244,18 @@
           <h2 id="modalTitle">
             Partager un article
           </h2>
-          <form>
+          <form data-abide>
             <div class="row">
               <div class="large-12 columns">
-                <label>URL de l'article <input placeholder="ex: http://www.tortugawebzine.fr/loi-sur-le-renseignement-decryptages/" type="text"></label>
+                <label>URL de l'article <small>required</small>
+                  <input type="url"  placeholder="ex: http://www.tortugawebzine.fr/loi-sur-le-renseignement-decryptages/" required>
+                </label>
+                <small class="error">Champs obligatoire</small>
               </div>
             </div>
             <div class="row">
               <p>
-                <a class="button" data-reveal-id="secondModal" href="#">Second Modal...</a>
+                <button class="button" type="submit" data-reveal-id="secondModal" href="#">Partager</button>
               </p>
             </div>
           </form><a class="close-reveal-modal">&#215;</a>
@@ -254,7 +272,7 @@
               <div class="large-2 columns small-2">
                 <img class="miniature-article" src="http://lorempixel.com/180/180/sports/">
               </div>
-              <div class="large-8 small-8 columns">
+              <div class="large-6 small-8 columns">
                 <h2 class="titre-article-main">
                   Faut-il avoir peur de l’intelligence artificielle ?
                 </h2>
@@ -462,7 +480,7 @@
               </div>
             </div>
             <div class="row">
-              <div class="large-12 columns">
+              <div class="large-10 columns">
                 <p class="date-articles">
                   Lundi 25 avril
                 </p>
@@ -473,33 +491,41 @@
                 <div class="large-2 columns small-2">
                   <img class="miniature-article" src="http://lorempixel.com/180/180/sports/">
                 </div>
-                <div class="large-8 small-8 columns">
+                <div class="large-6 small-8 columns">
                   <h2 class="titre-article-main">
-                    Faut-il avoir peur de l’intelligence artificielle ?
+                    Les racines du génocide arménien
                   </h2>
                   <p class="infos-article">
                     <i class="fa fa-newspaper-o"></i> LONGFORM - <i class="fa fa-eye fa-lg"></i> Temps de lecture: 12 mn
                   </p>
                   <p class="extrait-article">
-                    Bill Gates, Stephen Hawking... Les auteurs de science-fiction ne sont plus les seuls à prédire une catastrophe entre nous et les machines. Grand entretien avec Michel Nachez, cyberanthropologue.
+                    Le 24 avril marque le centenaire du génocide arménien perpétré en pleine première guerre mondiale. Ces massacres furent le résultat d’une politique délibérée d’une partie des dirigeants de l’empire ottoman...
                   </p>
                   <ul class="inline-list">
                     <li class="article-source">Source <a href="">Libération</a>
                     </li>
+                    <li class="article-source">Partagé par<img class="profil-share" src="http://lorempixel.com/35/35/city/"></li>
                   </ul>
                   <hr>
                 </div>
-                <div class="large-1 columns small-1">
-                  <img class="profil-image" src="http://lorempixel.com/35/35/sports/">
+                <div class="large-1 columns small-1 social-column end">
+                  <ul>                                  
+                    <li><i class="fa fa-bookmark-o fa-lg bookmarkon" data-options="align:right; is_hover:true; hover_timeout:5000000" data-dropdown="hover2"></i>
+                      <ul id="hover2" class="tiny f-dropdown save-article" data-dropdown-content>
+                        <li>Sauvegarder</li>
+                      </ul>
+                    </li>
+                    <li><i class="fa fa-share fa-lg bookmarkon" data-options="align:right; is_hover:true; hover_timeout:5000000" data-dropdown="hover2"></i></li>                                                             
+                  </ul>  
                 </div>
               </div>
             </div>
             <div class="row">
               <div class="large-12 medium-12 small-12 columns">
                 <div class="large-2 columns small-2">
-                  <img class="miniature-article" src="http://lorempixel.com/180/180/sports/">
+                  <img class="miniature-article" src="http://lorempixel.com/180/180/people/">
                 </div>
-                <div class="large-8 small-8 columns">
+                <div class="large-6 small-6 columns">
                   <h2 class="titre-article-main">
                     Faut-il avoir peur de l’intelligence artificielle ?
                   </h2>
@@ -515,19 +541,21 @@
                   </ul>
                   <hr>
                 </div>
-                <div class="large-1 columns small-1">
-                  <img class="profil-image" src="http://lorempixel.com/35/35/sports/">
+                <div class="large-1 columns small-1 social-column">
+                  <img class="profil-share" src="http://lorempixel.com/35/35/city/">
+                  <i class="fa fa-bookmark-o fa-lg bookmarkon" data-options="align:right; is_hover:true; hover_timeout:5000000" data-dropdown="hover2"></i>                 
+                  <ul id="hover2" class="tiny f-dropdown save-article" data-dropdown-content><li>Sauvegarder</li></ul>
                 </div>
               </div>
             </div>
             <div class="row dossier">
               <div class="large-12 medium-12 small-12 columns">
                 <div class="large-2 columns small-2">
-                  <img class="miniature-dossier" src="http://lorempixel.com/180/180/sports/">
+                  <img class="miniature-dossier" src="img/dossier1.png">
                 </div>
-                <div class="large-8 small-8 columns">
+                <div class="large-6 small-8 columns end">
                   <h2 class="titre-dossier-main">
-                    Faut-il avoir peur de l’intelligence artificielle ?
+                    Le baromètre « Confiance dans les médias » ou l’arroseur arrosé
                   </h2>
                   <p class="infos-dossier">
                     DOSSIER - 12 ARTICLES
@@ -536,7 +564,7 @@
                     Bill Gates, Stephen Hawking... Les auteurs de science-fiction ne sont plus les seuls à prédire une catastrophe entre nous et les machines. Grand entretien avec Michel Nachez, cyberanthropologue.
                   </p><a class="button small" href="#">Voir le dossier</a>
                 </div>
-                <div class="large-1 columns small-1 fa heart-o fa-x2" style="font-style: italic"></div>
+                
               </div>
             </div>
             <div class="row">
@@ -544,7 +572,33 @@
                 <div class="large-2 columns small-2">
                   <img class="miniature-article" src="http://lorempixel.com/180/180/sports/">
                 </div>
-                <div class="large-8 small-8 columns">
+                <div class="large-6 small-8 columns">
+                  <h2 class="titre-article-main">
+                    L’algorithme du gouvernement sera intrusif et inefficace. On vous le prouve
+                  </h2>
+                  <p class="infos-article">
+                    <i class="fa fa-newspaper-o"></i> LONGFORM - <i class="fa fa-eye fa-lg"></i> Temps de lecture: 12 mn
+                  </p>
+                  <p class="extrait-article">
+                    Bill Gates, Stephen Hawking... Les auteurs de science-fiction ne sont plus les seuls à prédire une catastrophe entre nous et les machines. Grand entretien avec Michel Nachez, cyberanthropologue.
+                  </p>
+                  <ul class="inline-list">
+                    <li class="article-source">Source <a href="">Libération</a>
+                    </li>
+                  </ul>
+                  <hr>
+                </div>
+                <div class="large-1 columns small-1">
+                  <img class="profil-image" src="http://lorempixel.com/35/35/sports/">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="large-12 medium-12 small-12 columns">
+                <div class="large-2 columns small-2">
+                  <img class="miniature-article" src="http://lorempixel.com/180/180/sports/">
+                </div>
+                <div class="large-6 small-8 columns">
                   <h2 class="titre-article-main">
                     Faut-il avoir peur de l’intelligence artificielle ?
                   </h2>
@@ -570,33 +624,7 @@
                 <div class="large-2 columns small-2">
                   <img class="miniature-article" src="http://lorempixel.com/180/180/sports/">
                 </div>
-                <div class="large-8 small-8 columns">
-                  <h2 class="titre-article-main">
-                    Faut-il avoir peur de l’intelligence artificielle ?
-                  </h2>
-                  <p class="infos-article">
-                    <i class="fa fa-newspaper-o"></i> LONGFORM - <i class="fa fa-eye fa-lg"></i> Temps de lecture: 12 mn
-                  </p>
-                  <p class="extrait-article">
-                    Bill Gates, Stephen Hawking... Les auteurs de science-fiction ne sont plus les seuls à prédire une catastrophe entre nous et les machines. Grand entretien avec Michel Nachez, cyberanthropologue.
-                  </p>
-                  <ul class="inline-list">
-                    <li class="article-source">Source <a href="">Libération</a>
-                    </li>
-                  </ul>
-                  <hr>
-                </div>
-                <div class="large-1 columns small-1">
-                  <img class="profil-image" src="http://lorempixel.com/35/35/sports/">
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="large-12 medium-12 small-12 columns">
-                <div class="large-2 columns small-2">
-                  <img class="miniature-article" src="http://lorempixel.com/180/180/sports/">
-                </div>
-                <div class="large-8 small-8 columns">
+                <div class="large-6 small-8 columns">
                   <h2 class="titre-article-main">
                     Faut-il avoir peur de l’intelligence artificielle ?
                   </h2>
