@@ -42,7 +42,7 @@ margin-right:10px
   
 .titre-article-main {  font-size: 1.225rem;
 	margin-bottom:0;
-  color: #595757;
+  color: #353535;
   font-weight: bold;}
 
 .infos-article {  font-size: 0.8rem;
@@ -58,12 +58,13 @@ margin-right:10px
 
 .article-source {display: inline;
 color: #A3A3A3;
-font-size: 0.85rem}
+font-size: 0.85rem;
+padding-top:6px;}
 
 .social-column {text-align: center;}
 
 .profil-share {border-radius:20px;
-margin-bottom:10px !important;}
+}
 
 .bookmarkon {color:#5BB7B6;
 }
@@ -77,7 +78,7 @@ margin-left: 10px !important;
 
 .save-article:after {content:none !important}
 
-hr {margin: 1.25rem 0 3.1875rem;}
+
 
 .article-profil > * {display: inline;}
 
@@ -198,6 +199,26 @@ ul.off-canvas-list li a {color: rgba(255, 255, 255, 1);
 .partage-validation {border: solid 1px #D5D5D5;
 padding:5px;
 margin-bottom:40px}
+
+.source-liste {  margin-bottom: 0px;
+height:35px;}
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
 
 
 

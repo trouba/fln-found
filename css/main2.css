@@ -1,0 +1,21 @@
+.secondary-menu {margin-top: 40px;}
+
+#secondary-menu {background-color:#FFF;
+margin-top: 40px;}
+
+
+.secondary-menu ul li  {background-color:#FFF}
+
+.secondary-menu ul li  a {background-color:#FFF}
+
+ul.secondary-menu-entry {background-color:#FFF}
+
+.secondary-menu-entry  a {background-color:#FFF}
+
+.secondary-menu li a  li:not(.has-form) a:not(.button):hover {
+  background-color: #FFFFFF;
+  background: #FFFFFF;
+    color: red;
+  border-bottom: red solid 2px;
+}
+
