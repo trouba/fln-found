@@ -1,21 +1,44 @@
-.secondary-menu {margin-top: 40px;}
-
-#secondary-menu {background-color:#FFF;
-margin-top: 40px;}
-
-
-.secondary-menu ul li  {background-color:#FFF}
-
-.secondary-menu ul li  a {background-color:#FFF}
-
-ul.secondary-menu-entry {background-color:#FFF}
-
-.secondary-menu-entry  a {background-color:#FFF}
-
-.secondary-menu li a  li:not(.has-form) a:not(.button):hover {
-  background-color: #FFFFFF;
-  background: #FFFFFF;
-    color: red;
-  border-bottom: red solid 2px;
+nav#secondary-menu {
+  background-color: #FFF;
+  margin-top:40px;
 }
+
+a.secondary-menu-entry-link {
+  background-color: #FFF !important;
+  color: #1A1A1A !important;
+}
+
+a.secondary-menu-entry-link:hover {
+  border-bottom: #5BB7B6 solid 3px;
+  color:#5BB7B6 !important;
+}
+
+li.menu-entry.secondary-menu-entry-area {
+  border-bottom: solid 1px #353535;
+}
+
+li.menu-entry.secondary-menu-entry-area:hover {
+  border-bottom: solid 0px #353535;
+  color:#E85A50;
+}
+
+.newsletter-banner {margin-top: 25px;
+background-color: #EFEFEF;
+  padding-top: 20px;
+  padding-bottom: 20px;}
+
+h3.banner-title {
+  color: #6C6C6C;
+  font-size: 1rem;
+  line-height: 1rem;
+}
+
+p.banner-text {
+  color: #6C6C6C;
+  font-size: 0.875rem;
+  line-height: 0.875rem;
+  margin-bottom:0;
+}
+
+
 

@@ -1,17 +1,17 @@
 .menuImg {height:45px;
 width:45px;}
 
-.top-bar {background-color:#E85A50
+.top-bar {background-color:#5BB7B6
 }
 
-.top-bar-section ul li {background-color:#E85A50
+.top-bar-section ul li {background-color:#5BB7B6
 }
 
-.top-bar-section ul li a {background-color:#E85A50
+.top-bar-section ul li a {background-color:#5BB7B6
 }
 
 
-.top-bar-section li:not(.has-form) a:not(.button) {background-color:#E85A50
+.top-bar-section li:not(.has-form) a:not(.button) {background-color:#5BB7B6
 }
 
 .profil-image {border-radius:20px;
@@ -169,9 +169,9 @@ ul.off-canvas-list li a {color: rgba(255, 255, 255, 1);
   font-weight: bold;
 }
 
-.tab-bar {background: #E85A50; }
+.tab-bar {background: #5BB7B6; }
 
-.right-submenu {background: #E85A50; }
+.right-submenu {background: #5BB7B6; }
 
 .right-off-canvas-menu ul.off-canvas-list li.has-submenu > a:after {
   content: "\BB";
