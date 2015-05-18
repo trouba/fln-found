@@ -10,7 +10,10 @@
     <link href="css/foundation.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link href="css/main2.css" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="js/vendor/modernizr.js"></script>
+
+    
   </head>
   <body>
   
@@ -40,7 +43,9 @@
                 <!-- Images profil top bar large et xlarge / Partage article pour large et xlarge-->
                 <ul class="right">
                   <li class="show-for-large-up" data-reveal-id="firstModal">
-                    <a href="#"><img src="img/addcall.png">PARTAGER UN ARTICLE <i class="fa fa-plus fa-x2"></i></a>
+                  
+                  <a href="#" class="button small"><i class="fa fa-plus fa-x2"></i>AJOUTER UN ARTICLE</a>  
+                    
                   </li>
                   <li class="show-for-large-only">
                     <a href="#"><img class="profil-image" src="http://lorempixel.com/35/35/sports/"></a>
@@ -62,50 +67,34 @@
   <section class="main-section">
   <div class="row newsletter-banner">
   <div class="large-12 columns">
+  
     <div class="large-1 medium-1 columns">
       <img src="img/newslettericon.png">
     </div>
-    <div class="large-4 medium-3 columns">
-      <h3 class="banner-title">NOUVEAU, LA NEWSLETTER FILON</h3>
-      <p class="banner-text">Tous les lundis, les meilleurs articles des 7 derniers jours dans votre boite mail</p> 
+    <div class="large-11 medium-11 columns">
+    <div class="large-12 medium-12 columns">
+      <h3 class="banner-title">LA NEWSLETTER FILON <span class="banner-text">Tous les lundis, les meilleurs articles des 7 derniers jours dans votre boite mail</span></h3>
+      
     </div> 
-    <div class="large-4 medium-4 columns">
+    <div class="large-8 medium-4 columns">
       <form>
         
             <label>
-              <input type="text" placeholder="Adresse email" />
+              <input type="text" placeholder="Votre adresse email (ex: ***@gmail.com)" />
             </label>
           
       </form>
     </div> 
-    <div class="large-3 medium-4 columns">
+    <div class="large-4 medium-4 columns">
       <a href="#" class="button small"><i class="fa fa-envelope-o fa-x2"></i> Recevoir la newsletter</a>    
-    </div>   
+    </div>  
+</div>    
   </div>
   </div>  
   <div class="row ">
   <div class="large-12 columns">
   <nav class="top-bar show-for-medium-up" data-topbar="" id="secondary-menu">
-              
-              <section class="top-bar-section secondary-menu-bar" >
-                <!-- Images profil top bar large et xlarge / Partage article pour large et xlarge-->
-                
-                <ul class="left secondary-menu">
-                  <li class="menu-entry secondary-menu-entry-area">
-                    <a class="secondary-menu-entry-link" href="#">DERNIERS ARTICLES</a>
-                  </li>
-                  <li class="menu-entry secondary-menu-entry-area">
-                    <a class="secondary-menu-entry-link" href="#">DOSSIERS</a>
-                  </li>
-                  <li class="menu-entry has-dropdown show-for-large-up secondary-menu-entry-area">
-                    <a class="secondary-menu-entry-link" data-dropdown="hover1" data-options="is_hover:true; hover_timeout:5000000000; pip:center;" href="#">THÈMES</a>
-                  </li>
-                  <li class="menu-entry secondary-menu-entry-area">
-                    <a class="secondary-menu-entry-link" href="#">PORTRAITS ET ENTRETIENS</a>
-                  </li>                 
-                </ul>
-              </section><!-- Dropdown menu thèmes -->
-              <div class="f-dropdown mega" data-dropdown-content="" id="hover1">
+              <div class="f-dropdown mega" data-dropdown-content=""  id="hover1">
                 <ul class="inline-list liste-categories">
                   <li>
                     <ul class="liste-categories">
@@ -260,15 +249,135 @@
                   </li>
                 </ul>
               </div>
+              <section class="top-bar-section secondary-menu-bar" >
+                <!-- Images profil top bar large et xlarge / Partage article pour large et xlarge-->
+                
+                <ul class="left secondary-menu">
+                  <li class="menu-entry secondary-menu-entry-area">
+                    <a class="secondary-menu-entry-link" href="#">DERNIERS ARTICLES</a>
+                  </li>
+                  <li class="menu-entry secondary-menu-entry-area">
+                    <a class="secondary-menu-entry-link" href="#">DOSSIERS</a>
+                  </li>
+                  <li class="menu-entry has-dropdown show-for-large-up secondary-menu-entry-area hover1-parent" >
+                    <a class="secondary-menu-entry-link" data-dropdown="hover1" data-options="is_hover:true; hover_timeout:500; pip:center;" href="#">THÈMES</a>
+                  </li>
+                  <li class="menu-entry secondary-menu-entry-area">
+                    <a class="secondary-menu-entry-link" href="#">PORTRAITS ET ENTRETIENS</a>
+                  </li>                 
+                </ul>
+              </section><!-- Dropdown menu thèmes -->
+              
             </nav>
   </div>
   </div>
 
-<div class-"row">
-<div class="large-12 columns">
-  <div class='sevenswitch-sell-box sevenswitch-sell-box-complete'><a href='https://www.7switch.com/fr/ebook/9782369141600/from/trouba' class='sevenswitch-sell sevenswitch-sell-large'>Acheter</a></div> <script src='https://www.7switch.com/assets/widget.js' type='text/javascript'></script>
-</div>
-</div>
+<div class="row article">
+              <div class="large-12 medium-12 small-12 columns">
+                <div class="large-2 columns small-2">
+                  <img class="miniature-article" src="http://lorempixel.com/180/180/sports/">
+                </div>
+                <div class="large-6 small-8 columns">
+                  <h2 class="titre-article-main">
+                    Les racines du génocide arménien
+                  </h2>
+                  <p class="infos-article">
+                    <i class="fa fa-newspaper-o"></i> LONGFORM - <i class="fa fa-eye fa-lg"></i> Temps de lecture: 12 mn
+                  </p>
+                  <p class="extrait-article">
+                    Le 24 avril marque le centenaire du génocide arménien perpétré en pleine première guerre mondiale. Ces massacres furent le résultat d’une politique délibérée d’une partie des dirigeants de l’empire ottoman...
+                  </p>
+                  <ul class="inline-list source-liste">
+                    <li class="article-source">Source<a href="">Libération</a>
+                    </li>
+                    <li class="article-source">Partagé par</li>
+                    
+                  </ul>
+                  
+                </div>
+                <div class="large-1 columns small-1 social-column end">
+                  <ul>                                  
+                    <li><i class="fa fa-bookmark-o fa-lg bookmarkon" data-options="align:right; is_hover:true; hover_timeout:5000000" data-dropdown="hover2"></i>
+                      <ul id="hover2" class="tiny f-dropdown save-article" data-dropdown-content>
+                        <li>Sauvegarder</li>
+                      </ul>
+                    </li>
+                    <li><i class="fa fa-share fa-lg bookmarkon" data-options="align:right; is_hover:true; hover_timeout:5000000" data-dropdown="hover2"></i></li>                                                             
+                  </ul>  
+                </div>
+              </div>
+            </div>
+            <div class="row article">
+              <div class="large-12 medium-12 small-12 columns">
+                <div class="large-2 columns small-2">
+                  <img class="miniature-article" src="http://lorempixel.com/180/180/sports/">
+                </div>
+                <div class="large-6 small-8 columns">
+                  <h2 class="titre-article-main">
+                    Les racines du génocide arménien
+                  </h2>
+                  <p class="infos-article">
+                    <i class="fa fa-newspaper-o"></i> LONGFORM - <i class="fa fa-eye fa-lg"></i> Temps de lecture: 12 mn
+                  </p>
+                  <p class="extrait-article">
+                    Le 24 avril marque le centenaire du génocide arménien perpétré en pleine première guerre mondiale. Ces massacres furent le résultat d’une politique délibérée d’une partie des dirigeants de l’empire ottoman...
+                  </p>
+                  <ul class="inline-list source-liste">
+                    <li class="article-source">Source<a href="">Libération</a>
+                    </li>
+                    <li class="article-source">Partagé par</li>
+                    
+                  </ul>
+                  
+                </div>
+                <div class="large-1 columns small-1 social-column end">
+                  <ul>                                  
+                    <li><i class="fa fa-bookmark-o fa-lg bookmarkon" data-options="align:right; is_hover:true; hover_timeout:5000000" data-dropdown="hover2"></i>
+                      <ul id="hover2" class="tiny f-dropdown save-article" data-dropdown-content>
+                        <li>Sauvegarder</li>
+                      </ul>
+                    </li>
+                    <li><i class="fa fa-share fa-lg bookmarkon" data-options="align:right; is_hover:true; hover_timeout:5000000" data-dropdown="hover2"></i></li>                                                             
+                  </ul>  
+                </div>
+              </div>
+            </div>
+            <div class="row article">
+              <div class="large-12 medium-12 small-12 columns">
+                <div class="large-2 columns small-2">
+                  <img class="miniature-article" src="http://lorempixel.com/180/180/sports/">
+                </div>
+                <div class="large-6 small-8 columns">
+                  <h2 class="titre-article-main">
+                    Les racines du génocide arménien
+                  </h2>
+                  <p class="infos-article">
+                    <i class="fa fa-newspaper-o"></i> LONGFORM - <i class="fa fa-eye fa-lg"></i> Temps de lecture: 12 mn
+                  </p>
+                  <p class="extrait-article">
+                    Le 24 avril marque le centenaire du génocide arménien perpétré en pleine première guerre mondiale. Ces massacres furent le résultat d’une politique délibérée d’une partie des dirigeants de l’empire ottoman...
+                  </p>
+                  <ul class="inline-list source-liste">
+                    <li class="article-source">Source<a href="">Libération</a>
+                    </li>
+                    <li class="article-source">Partagé par</li>
+                    
+                  </ul>
+                  
+                </div>
+                <div class="large-1 columns small-1 social-column end">
+                  <ul>                                  
+                    <li><i class="fa fa-bookmark-o fa-lg bookmarkon" data-options="align:right; is_hover:true; hover_timeout:5000000" data-dropdown="hover2"></i>
+                      <ul id="hover2" class="tiny f-dropdown save-article" data-dropdown-content>
+                        <li>Sauvegarder</li>
+                      </ul>
+                    </li>
+                    <li><i class="fa fa-share fa-lg bookmarkon" data-options="align:right; is_hover:true; hover_timeout:5000000" data-dropdown="hover2"></i></li>                                                             
+                  </ul>  
+                </div>
+              </div>
+            </div>
+            <div class='sevenswitch-sell-box sevenswitch-sell-box-complete'><a href='https://www.7switch.com/fr/ebook/9782820509574/from/trouba' class='sevenswitch-sell sevenswitch-sell-small'>Acheter</a></div> <script src='https://www.7switch.com/assets/widget.js' type='text/javascript'></script>
 
   </section><a class="exit-off-canvas"></a>
       </div>
